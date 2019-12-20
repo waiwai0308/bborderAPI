@@ -12,7 +12,6 @@ class DrinkshopsMenuItemTableSeeder extends Seeder
     public function run()
     {
         DB::table('drink_shops_menu_item')->insert([
-            // 'drinkshop_id' => str_random(10),
             'category_id' => '1',
             'item_name' => '紅茶',
             'item_price' => '0',
@@ -30,10 +29,9 @@ class DrinkshopsMenuItemTableSeeder extends Seeder
             'sort' => '1',
         ]);
         DB::table('drink_shops_menu_item')->insert([
-            // 'drinkshop_id' => str_random(10),
             'category_id' => '1',
             'item_name' => '綠茶',
-            'item_price' => '少冰',
+            'item_price' => '0',
             'item_price_s' => '0',
             'item_price_m' => '0',
             'item_price_l' => '20',
@@ -48,10 +46,9 @@ class DrinkshopsMenuItemTableSeeder extends Seeder
             'sort' => '2',
         ]);
         DB::table('drink_shops_menu_item')->insert([
-            // 'drinkshop_id' => str_random(10),
             'category_id' => '2',
             'item_name' => '紅茶鮮奶',
-            'item_price' => '少冰',
+            'item_price' => '0',
             'item_price_s' => '0',
             'item_price_m' => '0',
             'item_price_l' => '20',
@@ -66,10 +63,9 @@ class DrinkshopsMenuItemTableSeeder extends Seeder
             'sort' => '1',
         ]);
         DB::table('drink_shops_menu_item')->insert([
-            // 'drinkshop_id' => str_random(10),
             'category_id' => '2',
             'item_name' => '綠茶鮮奶',
-            'item_price' => '少冰',
+            'item_price' => '0',
             'item_price_s' => '0',
             'item_price_m' => '0',
             'item_price_l' => '20',
@@ -84,10 +80,9 @@ class DrinkshopsMenuItemTableSeeder extends Seeder
             'sort' => '2',
         ]);
         DB::table('drink_shops_menu_item')->insert([
-            // 'drinkshop_id' => str_random(10),
             'category_id' => '3',
             'item_name' => '蘋果汁',
-            'item_price' => '少冰',
+            'item_price' => '0',
             'item_price_s' => '0',
             'item_price_m' => '0',
             'item_price_l' => '20',
@@ -102,10 +97,9 @@ class DrinkshopsMenuItemTableSeeder extends Seeder
             'sort' => '1',
         ]);
         DB::table('drink_shops_menu_item')->insert([
-            // 'drinkshop_id' => str_random(10),
             'category_id' => '3',
             'item_name' => '西瓜汁',
-            'item_price' => '少冰',
+            'item_price' => '0',
             'item_price_s' => '0',
             'item_price_m' => '0',
             'item_price_l' => '20',
@@ -117,7 +111,7 @@ class DrinkshopsMenuItemTableSeeder extends Seeder
             'item_free_ingredient' => '',
             'item_recommend' => 0,
             'display' => 'show',
-            'sort' => '1=2',
+            'sort' => '2',
         ]);
     }
 }

@@ -17,7 +17,7 @@ class CreateDrinkShopsMenuSpecificationsTable extends Migration
             $table->bigIncrements('spec_id');
             $table->integer('menu_id');
             $table->string('spec_type');
-            $table->integer('spec_name')->default(0);
+            $table->string('spec_name');
             $table->string('display');
             $table->integer('sort')->default(0);
             $table->dateTime('updated_at')->change();
